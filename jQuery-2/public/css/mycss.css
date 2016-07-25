@@ -1,0 +1,16 @@
+.search{
+	margin-top:60px;
+	text-align:center;
+	background:brown;
+}
+.submit{
+	margin-top:2px;
+}
+col-lg-2 col-md-2 col-sm-2 col-xs-2{
+	text-align:center;
+	background:brown;
+}
+p{
+	margin:0;
+	padding:0;
+}

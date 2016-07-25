@@ -1,0 +1,133 @@
+<html>
+	<head>
+	    <link rel="stylesheet" href="css/mycss.css"">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<title>Omdb</title>
+		<meta name="description" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1">
+
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="#"><h5>Movies</h5></a>
+			</div>
+
+			<div class="collapse navbar-collapse " id="collapse1">
+	
+				<ul class="nav navbar-nav navbar-right" id="login">
+				<li  data-toggle="tooltip" title="Click to insert entry" class="create"><a href="#myModal" data-toggle="modal">Insert new entry <span class="glyphicon glyphicon-upload"></span></a></li>
+
+
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Log in <span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>  Settings</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> update</a></li>
+						<li><a href="#"> <span class="glyphicon glyphicon-eye-open"></span> Active logging</a></li>
+					</ul>
+
+					</li>
+					</ul>
+					</div>
+				</nav>
+
+					<div class="modal fade" id="myModal">
+
+						<div class="modal-dialog">
+
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sign Up</h4>
+									</div>
+									<div class="modal-body">
+										<h4>Enter details</h4>
+										
+
+										<p><small class="text-muted">Enter name and email</small></p>
+
+
+										<form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputName">Name</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="form-control" id="inputName" placeholder="Name" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputPhone">Phonw</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="form-control" id="inputphone" placeholder="Phone" type="text">
+                                                        </div>
+                                                    </div>
+													<div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputGender">Gender</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="form-control" id="inputGender" placeholder="Gender" type="text">
+                                                        </div>
+                                                    </div>
+													<div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputLocation">Location</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="form-control" id="inputLocation" placeholder="Gender" type="text">
+                                                        </div>
+                                                    </div>
+													<div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputAge">Age</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="form-control" id="inputGender" placeholder="Age" type="text">
+                                                        </div>
+											<div>													
+     <a href="#" class="btn btn-success pop col-lg-offset-4 col-lg-4" data-toggle="popover" data-placement="top" data-original-title="Status" data-content="Mail sent" style="margin-top:10px" type="submit">Submit</a>
+                                       </div>            
+                
+                                                    </div>
+								           
+                                                </form>
+									</div>
+						
+						</div>
+						</div>
+				</div>
+				
+				</div><!-- end of nav-->
+			 	<div class="subheader row">
+					<form class="search" method="get">
+						<h3 class="col-lg-12">Search user details</h3>
+						<input type="text" name="fname" class="col-lg-offset-3 col-lg-6">
+						<input type="button" value="submit" class="submit btn-primary col-lg-4 col-lg-offset-4">
+					</form>
+					</div>
+					<div class="headingss row" style="background:red">
+					<p class="col-lg-2">Name<p>
+					<p class="col-lg-2">Location<p>
+					<p class="col-lg-2">Gender<p>
+					<p class="col-lg-2">Phone<p>
+					<p class="col-lg-2">Age<p>
+					<p class="col-lg-1">Delete<p>
+					<p class="col-lg-1">update<p>
+					</div>
+	
+				
+				
+					
+
+				</body>
+				<script src="js/myjs.js"></script>
+				<script>form();</script>
+</html>
